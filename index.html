@@ -4,9 +4,147 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>P2</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="animations.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap&subset=latin-ext" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/80c7d3798b.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
+<!-- Header with logo, STATIC navigation bar and clickable DOWLOAD button. -->
+<header>
+    <div class="staticNavBar">
+<!-- LOGO -->
+        <a class="logoSync" title="Go to DESCRIPTION" href="#">
+            <img src="./images/logo.svg">
+        </a>
+        <nav id="ulNavBar">
+        <!-- <div class="navBar"> -->
+                    <a class="sectionLinks" href="#">DESCRIPTION</a>
+                    <a class="sectionLinks" href="#">FEATURES</a>
+                    <a class="sectionLinks" href="#">SCREEN</a>
+                    <a class="sectionLinks" href="#">EXTRA<img id="downArrow" src="./images/down-arrow.png" alt=""></a> 
+                    
+                    <!-- DOWNLOAD -->
+                    <div id="btnDwlNav">
+                        <a href="https://factoriaf5.org/"><button id="dwnldButtonNav">DOWNLOAD</button></a>
+                    </div>
+            <!-- </div>     -->
+        </nav>
+    </div>
+
+</header>     
+                      <!-- MAIN CONTENT -->
+<main>
+    <section id="introSection">
+        <!--  Page1. Introduction. -->
+        <article>
+            <div class="introduction">
+                <h1>Mobile App Landing Page</h1>
+                <p class="slogan">Start focusing on your goals and get more things done with Sync mobile application. It's the first app to harness the power of social connection to help you stay focused and get organized</p>
+                <div class="buttons">
+                <!-- Dwnld Button Apple -->
+                    <button id="downloadAppleButton" href="https://factoriaf5.org/">
+                        <i class="fa-brands fa-apple" style="color: #f9fafa;"></i>
+                        DOWNLOAD
+                    </button>
+                <!-- Dwnld Button Playstore -->
+                    <button id="downloadPlaystoreButton" href="https://factoriaf5.org/">
+                        <i class="fa-brands fa-google-play" style="color: #ffffff;"></i>
+                        DOWNLOAD     
+                    </button>
+                </div>
+            </div>
+            <div class="flip-scale-up-hor">
+                <img id="header-iphone" src="./images/header-iphone.png">
+            </div>
+            <div id="iconContainerPage1" >
+                                    <!-- THEME ICONS PAGE1 -->
+
+                    <div class="iconBox ">
+                        <img class="allIcons slide-fwd-center" id="icon1" src="./images/people.png" alt="">
+                        <p class="textBlackBold">Identify Goals</p> 
+                    </div>
+                    <div class="iconBox">
+                        <img class="allIcons" id="icon2" src="./images/sitAnalysis.png" alt="">
+                        <p class="textBlackBold">Situation Analysis</p>
+                    </div>
+                    <div class="iconBox">
+                        <img class="allIcons" id="icon3" src="./images/taskingSet.png" alt="">
+                        <p class="textBlackBold">Task Setting</p>
+                    </div>
+                    <div class="iconBox">
+                        <img class="allIcons" id="icon4" src="./images/socInteraction.png" alt="">
+                        <p class="textBlackBold">Social Interaction</p>
+                    </div>
+                    <div class="iconBox">
+                        <img class="allIcons" id="icon5" src="./images/getThingsDone.png" alt="">
+                        <p class="textBlackBold">Get Things Done</p>
+                    </div>   
+            </div>
+        </article>
+ 
+        <!-- Page 2. Description -->
+        <!-- Image -->
+        <section id="description">
+            <div id="imgDescription">
+                <img id="descrApp1" src="./images/description-1-app.png" alt="">
+            </div>
+            <!-- Text -->
+            <div class="textContainerOfDescription">
+                <div>
+                    <h2>Organize Your Time And Start Getting Results</h2>
+                </div>
+                
+                <div id="ulPage2">
+                    <p>Sync is the first mobile app on the market to harness the power of social connections to help you stop procrastinating and start getting things done. Give it a try and see the changes right away
+                    </p>
+                    <ul>
+                        <li>Analyse and evaluate your current status and productivity</li><br>
+                        <li>Begin monitoring your day to day routine with Sync app</li><br>
+                        <li>See the improved results in no more than a couple of weeks</li><br>
+                    </ul>
+                    <button class="buttons" id="lightboxButton">
+                        LIGHTBOX
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Page3. Features -->
+        <article class="page3Class">
+            <!-- Text and Buttons -->
+            <div class="textBoxPage3">
+                <div class="groupOfButtons">
+                    <dt>
+                        <button id="scheduleButton">
+                            <a id="scheduleIcon" href="./images/favicon.png"></a>
+                             Schedule
+                            </button>
+                        <button>
+                            Tracking
+                        </button>
+                        <dd><button>Organize</button></dd>
+                        
+                    </dt>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore, quis molestias in, dolorem tempora suscipit sed tenetur sit eos nam quas eius repudiandae necessitatibus asperiores vitae, dolores optio veritatis reiciendis.
+                </p>
+
+            </div>
+            <!-- Image of Calendar -->
+            
+            <div class="imgCalendarPage3">
+                <img src="./images/description-2-app.png" alt="">
+            </div>
+        </article>
+    </section>
+    
+</main>
+<footer>
+
+</footer>
     
 </body>
 </html>
