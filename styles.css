@@ -17,8 +17,7 @@ body{
 
 
 /***********************************************
-******* Animation of the image "Mobile" page 1 **
-************************************************/
+******* Animation of the image "Mobile" page 1 ***/
 .flip-scale-up-hor {
 	-webkit-animation: flip-scale-up-hor 0.5s steps(2, end) alternate-reverse ;
 	        animation: flip-scale-up-hor 0.5s steps(2, end) alternate-reverse ;
